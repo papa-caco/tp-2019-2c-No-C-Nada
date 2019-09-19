@@ -1,10 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <projectDescription>
-	<name>FUSE</name>
+	<name>biblioNOC</name>
 	<comment></comment>
 	<projects>
-		<project>bibliotecaNOCE</project>
-		<project>biblioNOC</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

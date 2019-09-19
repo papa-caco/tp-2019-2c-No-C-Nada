@@ -3,7 +3,7 @@
 	<name>SUSE</name>
 	<comment></comment>
 	<projects>
-		<project>bibliotecaNOCE</project>
+		<project>biblioNOC</project>
 	</projects>
 	<buildSpec>
 		<buildCommand>

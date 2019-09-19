@@ -25,11 +25,14 @@ endif
 # All Target
 all: MUSE
 
+dependents:
+	-cd /home/utnso/workspace/tp-2019-2c-No-C-Nada/bibliotecaNOCE/Debug && $(MAKE) clean all
+
 # Tool invocations
-MUSE: $(OBJS) $(USER_OBJS)
+MUSE: $(OBJS) $(USER_OBJS) /home/utnso/workspace/tp-2019-2c-No-C-Nada/bibliotecaNOCE/Debug/libbibliotecaNOCE.so
 	@echo 'Building target: $@'
 	@echo 'Invoking: GCC C Linker'
-	gcc -L/home/utnso/workspace/tp-2019-2c-No-C-Nada/bibliotecaNOCE/Debug -o "MUSE" $(OBJS) $(USER_OBJS) $(LIBS)
+	gcc -L"/home/utnso/workspace/tp-2019-2c-No-C-Nada/bibliotecaNOCE/Debug" -o "MUSE" $(OBJS) $(USER_OBJS) $(LIBS)
 	@echo 'Finished building target: $@'
 	@echo ' '
 
@@ -39,5 +42,6 @@ clean:
 	-@echo ' '
 
 .PHONY: all clean dependents
+/home/utnso/workspace/tp-2019-2c-No-C-Nada/bibliotecaNOCE/Debug/libbibliotecaNOCE.so:
 
 -include ../makefile.targets

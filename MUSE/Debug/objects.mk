@@ -4,5 +4,5 @@
 
 USER_OBJS :=
 
-LIBS := -lbibliotecaNOCE -lcommons -lpthread
+LIBS := -lcommons -lpthread -l"/home/utnso/workspace/tp-2019-2c-No-C-Nada/bibliotecaNOCE/Debug/libbibliotecaNOCE.so"
 

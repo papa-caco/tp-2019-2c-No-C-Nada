@@ -8,11 +8,19 @@
  ============================================================================
  */
 
-
 #include <stdio.h>
 #include <stdlib.h>
-#include <biblioteca/paquetes.h>
+#include <commons/temporal.h>
+#include "biblioNOC/paquetes.h"
 
 int main(void) {
+	int i = 3333;
+	while (i >= 3000) {
+		char* tiempo = temporal_get_string_time();
+		puts(tiempo); /* prints !!!Hello World!!! */
+		printf("%d\n", i);
+		free(tiempo);
+		i--;
+	}
 	return prueba();
 }
