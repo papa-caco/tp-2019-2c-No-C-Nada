@@ -14,7 +14,8 @@ Federico Di Chena    160683-9 (K3575) dichena.federico@gmail.com
 Para poder correr los tests de:
  
  -lilolay-example
- -linuse-test-programs
+ 
+ -linuse-pruebas
 
 Se debe hacer un export de la variable de entorno LD_LIBRARY_PATH:
 
