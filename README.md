@@ -11,6 +11,16 @@ Walter Ormeño        148917-3 (K3573) walter.ormenio@gmail.com
  
 Federico Di Chena    160683-9 (K3575) dichena.federico@gmail.com
 
+Para poder correr los tests de:
+ 
+ -lilolay-example
+ -linuse-test-programs
+
+Se debe hacer un export de la variable de entorno LD_LIBRARY_PATH:
+
+  - export LD_LIBRARY_PATH=/home/utnso/workspace/tp-2019-2c-No-C-Nada/biblioSuse/Debug:/home/utnso/workspace/tp-2019-2c-No-C-Nada/hilolay/bin:/home/utnso/workspace/tp-2019-2c-No-C-Nada/biblioNOC/Debug
+
+
 
 
 

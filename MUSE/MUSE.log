@@ -1,0 +1,3 @@
+[INFO] 21:54:04:919 MUSE/(18313:18313): Inicio proceso de MUSE
+[INFO] 21:54:04:919 MUSE/(18313:18313): Leyendo config: /home/utnso/workspace/tp-2019-2c-No-C-Nada/configs/muse.cfg
+[DEBUG] 21:54:04:934 MUSE/(18313:18313): Esperando conexiones en puerto 60503
